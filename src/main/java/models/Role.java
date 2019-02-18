@@ -6,7 +6,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 @Entity
 @Table(name="roles")
 public class Role {
@@ -20,6 +19,8 @@ public class Role {
 	private String roleName;
 	
 
+	// Use lombok to remove all the boillerplate code. @Data, @AllArgs, @NoArgs 
+	
 	
 	public Role(){}
 	
